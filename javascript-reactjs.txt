@@ -1,0 +1,371 @@
+Formation JavaScript 
+
+https://mensuel.framapad.org/p/formationjavascript-9wy7?lang=fr
+
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+https://software.hixie.ch/utilities/js/live-dom-viewer/#
+
+https://developer.mozilla.org/fr/docs/Web/Events
+
+https://sharemycode.fr/lt9
+
+
+Marine Jacobs 30 ans, bac+2, titre de développeur web et web mobile obtenu en juillet 2022. niveau intermédiaire en js. 
+Thierry ZENNARO, 47 ans, Bac+2 Informatique de Gestion, Connaissance de Javascript
+Leith ZNIBER, 25 ans, Bac +5 en biochimie, aucune notion en JS 
+Magnanga boudzanga Aimé , bac +5 en Géologie obtenu à l'université Paul Sabatier de Toulouse; Débutant en Javascript
+Radonirina (Rad) ANDRIAMIHAJA 41 ans bac +4 maths appliquées - faible notion en javascript
+
+ Mélanie Richard, 28 ans , bac+5, débutante en Javascript 
+REKIK Sedki , 39ans bac+3, débutant++ enJS
+Nicolas Bens, 26 ans, bac+5 thermique et énergie, débutant en javascript
+Cédric BOUTTES, 49 ans, Bac+5 ingénieur en développement logiciel, profil surtout backend java springboot, python, base de données ... et débutant Front-end Angular, ...
+Antoine Tassin, 35 ans, Bac+5 en sciences du langage,  aucune notion en JS 
+
+
+Emeric Rakotondrahaja, 34ans, bac+5, aucune notion en js 
+Yannis BILLON, 21 ans, bac +2  informatique débutant++ en JS. 
+Saikou 38 ans bac +5 lettres modernes, niveau débutant en js
+Pierre ALVES, 27 ans, Bac+5 en ergonomie, aucune notion en Javascript
+Pelykh Mykhaylo, 25 ans, bac intermédiaire JavaScript 
+
+
+Liste de Projet : 
+Boutique en ligne   Sedki  saikou, aimé
+ToDo List : Mélanie, Nicolas, Radonirina 
+Site vitrine d'un artisan plombier : Cédric, Yannis ,Emeric 
+Quizz en ligne  :  Leith, Emeric, Marine, Antoine
+Application notation Media (Film, Musique, Jeux ....) : Pierre - Pelykh - Thierry
+
+
+
+Application d’échange de livres d’occasion
+Assistant de sélection d'équipe pour coach sportif
+Portail d'événements culturel ou sportifs   : Thierry,  
+Annuaire 
+Gestionnaire de dépôt :  Sedki 
+Forum  
+
+
+
+Jeux Plus ou Moins
+
+L'utilisateur doit deviner un nombre entre 1 et 500 (un nombre secret générer par l'ordinateur)
+On va donc demander à l'utilisateur de trouver ce nombre secret. 
+
+Tant qu'il n'a pas trouver ce nombre on lui demandera encore et encore, jusqu'à ce  qu'il le trouve
+
+Supposons que le nombre recherche est 244 
+L'application demandera à l'utilisateur de trouver ce nombre 244.
+Si l'utilisateur entre 29, l'application lui dira que le nombre qu’il a rentré est trop petit
+Si l'utilisateur entre 400, l'application lui dira que le nombre qu’il a rentré est trop grand
+Ainsi de suite jusqu'à ce que l'utilisateur affine son résultat, et trouve  le nombre recherché
+
+On lui indiquera, aussi en combien de coup il a trouvé le nombre, en 1 coup  (il trop fort), en 3 coups, ou 14 coups
+
+- nombreSecret : le nombre généré par l'ordinateur 
+- nbreUtilisateur : Le nombre entré par l'utilisateur 
+- nbreDEssai : Permet à l'utilisateur de savoir en combien de coup il a trouvé le nombre 
+- rejouer =  Permet à l'utilisateur de rejouer une partie
+
+    Exercice  2 : 
+    Lorsque l'on clique sur le bouton "Publier", 
+    un evenement se déclenche et appelle une fonction creerPara qui prend en paramètre : 
+        1- la valeur du champ textarea qui a pour nom 'article', 
+        2- la valeur du champ input qui a pour nom 'size'
+        3- la valeur du champs input qui a pour nom couleur 
+    (ex: creerPara(str, size, color))
+    La fonction 'creerPara' s'occupe de créer un paragraphe <p></> avec 
+    comme texte: 'str', une taille de 'size' et comme couleur 'couleur' 
+    Le paragraphe sera affiché dans la balise <div id="blog">
+*/
+
+     // Supprime le comportement par defaut (Rafraichissement de la page)
+   event.preventDefault();
+   event.target[0]  ou event.target.article
+   event.target[1]   ou event.target.    
+
+
+    Pour 
+
+/** 
+ * Exercice: 
+ * Lorsque l'on clique sur le bouton "creation lien", 
+ * un evenement se déclenche et, crée 10 liens 
+ * qui seront affichés dans la balise <div id="link"> 
+ */
+
+A ajouter dans le fichier HTML dans le body: 
+
+ <h1>Exercice: </h1>
+
+    <div id="link">
+        <h2>creation d'une liste de liens</h2>
+        <button onclick="creerLiens()">Créer 10 Liens</button>
+    </div>
+
+
+Exercice 3 : Validation 
+
+/**
+ * Formulaire d'ajout de contact
+ * 
+ * Le formulaire devra comporté au moins 3 champs (nom, prénom, email)
+ * Faire en sorte que les champs ne puissent pas être vide à l'envoie du formulaire
+ * Si un champ est vide il devras être mit en rouge et vert si OK
+ * Il ne sera pas possible d'envoyer le formulaire avec un champ vide.
+ * 
+ * Une fois que tout est ok, on envoi le formulaire et le contact apparaitra en dessous 
+ */ 
+
+
+BehaviorSubject :
+https://www.journaldunet.fr/web-tech/developpement/1441195-behaviorsubject-vs-observable/&
+
+
+
+FORMATION REACT 
+Projet React : https://github.com/woodsonju/FormationReact_14112022
+git clone https://github.com/woodsonju/FormationReact_14112022 
+A chaque modification : git pull
+
+API : https://jsonplaceholder.typicode.com/
+Se connecter à Axios :  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+Lien Axios  : https://axios-http.com/fr/docs/api_intro
+
+Lien cours React : https://fr.reactjs.org/docs/create-a-new-react-app.html
+Comprendre le DOM Virtuel et la relation avec le DOM : https://fr.planetalpha31.com/what-is-virtual-dom
+    
+Node : Outil qui permet de lancer du Javascript en dehors du navigateur, via une machine virtuelle V8 (moteur JS de Chrome)
+NPM : Node Package Manager : permet de gérer une application node en ligne de commande de lancer des scripts, et de gérer des librairies 
+NPX : Node package Executer : pour executer des librairies 
+
+Pour créer une application Réact : 
+Besoin de NodeJS avec version > 14 
+Se placer à l'endroit où vous souhaitez créer votre application 
+Ouvrir PowerShell, ou invite de commande dans le dossier 
+Taper : npx create-react-app poe-react
+cd poe-react
+npm start permet de lancer l'application
+
+L'IDE   : 
+Visual Studio Code 
+
+Webstorm (essaie de 30 jours, ou avec une adresse étudiante)
+IntelliJ (Version ultimate payante)
+
+===> Attention, votre terminal doit bien se situer à la racine du projet 
+La racine du projet c'est là où est situé le fichier package.json
+
+Pour récupérer un projet existant : 
+Les nodes_modules ne seront pas présents (trop lourd) 
+Il faut les réinstaller avec la commande "npm install" 
+
+
+Génération des fichiers lors de la création du projet 
+
+Fichier index.html 
+La page index.html (SPA : Single Page Application) contient un id = root 
+ C'est la page qui sera affichée lors de l'exécution de l'application ou plutôt le composant
+ correspondant à id=root 
+ 
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+
+    </div>
+  </body>
+
+2. Fichier index.js
+Pour cela, il va chercher un fichier qui s’appelle index.js
+Le premier fichier qui va donc s’exécuter c’est index.js
+Elle fait appel à une classe ReactDOM, et va lui demander de générer/créer le rendu d’un composant qui s’appelle App  (cf root.render....)
+L'élément App sera affiché dans l'élément DOM root
+Ce composant sera importé depuis le script App.js en ligne 4
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Ap
+  p /></React.StrictMode>
+);
+
+Le composant index.js est associée au fichier Index.css 
+Index.css : contient le styles globaux qui sont appliqués à l'ensemble 
+  de notre application
+
+Fichier App.js 
+
+Quand on retourne un composant il faut utiliser  XHTML et non  l’annotation HTML. 
+Dans l’annotation XHTML, le composant doit avoir une racine. 
+Il faut commencer par l'élément div
+Toutes les balises doivent être fermées 
+Il faut respectée l’imbrication 
+Les valeurs des attributs sont entre double quote
+    
+Le composant App est une fonction dont le code va de la ligne 4 à la ligne 23
+Son rôle est de produire (return) du code HTML mis à la disposition du script index.js  
+Dans notre cas le code retourné est constitué d’une div unique (<div>…</div>)
+
+Le composant App.js est associé au style CSS, qui se trouve dans un script séparé, le fichier App.CSS
+   
+On peut remarquer aussi la syntaxe particulière pour demander l’utiliser d’un style CSS : 
+Il ne s’agit pas de l’habituel « class » mais de « className ». Le mot-clé « className » est un élément JSX. 
+
+    */
+  <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+
+
+Découpage de l'application en composant : 
+    On découpe l'application  en composant : 
+Chaque composant à sa propre responsabilité 
+On peut diviser en autant de composant qu'on le souhaite 
+
+On peut imbriquer des composants les uns dans les autres (relation parent /enfant)
+Les parents peuvent passer  des informations, des valeurs, des fonctions vers l'enfant via les props 
+Les props, c'est un objet qu'on récupère en paramètre du composant enfant 
+
+On peut créer un système de pages, un router
+On va utiliser la librairie react-router-dom 
+Se configure dans App.js (routes) 
+Les liens se font avec <NavLink to="/lien">Mon Lien </NavLink>
+Cela permet de naviguer d'un composant à l'autre via des liens
+On peut faire transiter des informations en paramètre de lien 
+
+
+Créer un composant : 
+Créer un fichier  JS, avec le nom du composant, commençant par une majuscule
+Dans ce fichier on définit le composant : 
+Une fonction qui retourne du JSX
+Comme JSX prend souvent plusieurs lignes, on le met entre parenthèses() 
+On export le composant, pour le rendre utilisable (export default MonComposant) 
+
+Si le composant est une page (Uniquement avec React-Router-Dom) : 
+On crée le route dans App.js 
+Balise <Route>
+path: "/chemin-choisi"
+element: <MonComposant />
+
+
+
+const Presentation = () => {
+    const message = "Je suis une variable ! ";
+    const borderColor = "darkslategrey";
+    const my_style = {color: "teal", borderStyle: "solid", borderColor};
+
+    /*
+        Les noms de propriétés en 2 mot ou plus utilisent le kebab-case en CSS , 
+        Le Kebab-case n'etant pas valable en JS, on utilise du CameCase pour les propriétés 
+        (Comme en JS classique)
+        Les objets  fonctionnent comme en JS Classique, avec les mêmes règles,  
+        le même sucre syntaxique (decomposition, objets litteraux, class,...)
+    */
+
+    const logo = "https://res.cloudinary.com/practicaldev/image/fetch/s--fced_LNQ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/1zg83mt0lo13dfmff1cr.png";
+
+    const image = {
+            url: "https://res.cloudinary.com/practicaldev/image/fetch/s--fced_LNQ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/1zg83mt0lo13dfmff1cr.png",
+            alt: "Logo de react",
+            height: 40
+        }
+    
+    
+Après un npm fix audit --force  (MARINE)
+
+-> npm cache clean --force
+-> npm rebuild
+-> supprimer le dossier node_modules
+-> remplacer le contenu des deux fichiers JSON 
+        : package-lock.json
+        : package.json
+-> npm install
+-> npm i react-router-dom
+-> npm start
+
+-> fichiers json propre
+https://sharemycode.fr/naz
+
+Affichage du composant en double - raison :  (MARINE)
+(Anglais) - https://mariosfakiolas.com/blog/my-react-components-render-twice-and-drive-me-crazy/
+
+
+jokeApi :  "https://v2.jokeapi.dev/joke/Programming?&type=single&safe-mode"
+swapi = "https://swapi.dev/api/people/"
+
+AXIOS : 
+    Pour faire l'interaction avec la partie Back End (API -Webservices), on va utiliser une dépendance qui s'appelle "axios" 
+    C'est une librairie utilisée permettant d'envoyer des requêtes "POST -GET - PUT - PATCH- DELETE" 
+Installation de la librairie axios : 
+npm install axios
+
+json-server
+JSON-SERVER  va nous aider à configurer très rapidement une API REST avec les opérations CRUD 
+Pour se connecter ou exécuter l'API REST  . 
+json-server chemin/db.json  --port 4000
+Dans notre cas  ===> json-server src/assets/db/db.json --port 4000
+Installation de json server 
+npm install -g json-server 
+npm i json-server
+
+Résoudre le problème unauthorizedaccess fullyqualifiederrorid (dans la console powershell) :
+• Get-ExecutionPolicy -List
+• Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+1.      Créer un composant Forms.js dans pages
+Dans App.js créer la route /forms et le lien dans Navigation.js
+Dans le composant Forms.js
+Déclarer une variable d’état users 
+Déclarer une variable api_url contenant une requête vers une API 
+Déclarer une méthode getUsers qui nous récupère la liste des Users et met à jour l’état users en appelant la méthode setUsers 
+Dans JSX afficher la liste des Users 
+Créer une méthode createUser pour ajouter un User 
+Dans JSX créer un formulaire pour ajouter le user (name, email, et bouton)
+Dans le dossier assets créer un dossier db 
+Dans le dossier db créer un fichier db.json avec des données 
+Installer json server : npm i json-server ou npm install -g json-server 
+Démarrer le server JSON 
+json-server src/assets/db/db.json
+UserDetails : 
+Créer un lien de navigation permettant d’accéder à un user 
+Créer un composant UserDetails.js dans le dossier page qui va nous afficher un user
+- Utiliser le Hook useParam()  //Récupère un objet avec les paramètres  
+Dans App.js créer la route path=’/user/ :id’
+
+
+Page NotFound : Lien image
+    https://img.buzzfeed.com/buzzfeed-static/static/2016-02/1/11/enhanced/webdr07/anigif_enhanced-21255-1454345675-2.gif
+
+-------------------------------
+
+
+React - Redux 
+https://openclassrooms.com/fr/courses/7150626-utilisez-le-state-manager-redux-pour-gerer-l-etat-de-vos-applications/7286787-initiez-vous-aux-concepts-cles-de-redux-sur-une-application-simple
+
+https://dev.to/ericlecodeur/react-redux-guide-du-debutant-12ck
+
+1.      React-Redux 
+·         Pour faire fonctionner Redux avec React nous avont besoin d’une librairie qui s’appelle React-React : npm install @reduxjs/toolkit react-redux
+·         React-Redux apport des outils adaptés pour interagir avec Redux depuis React 
+·         Créer le composant (page) Redux .js
+·         Dans App.js créer la route /redux et le lien dans Navigation.js 
+·         Créer un dossier Store dans src: 
+Dans le dossier store :
+- Créer le Basket.js (reducer) 
+- Créer le composant Store.js
